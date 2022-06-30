@@ -33,15 +33,6 @@ class Routes {
   static const my = '/my';
   static const duty = '/duty';
   static const googlePlaceApi = '/googlePlaceApi';
-  static const setting = '/setting';
-  static const search = '/search';
-  static const nothingFound = '/nothingFound';
-  static const signInError = '/signInError';
-  static const networkError = '/networkError';
-  static const gpsAccess = '/gpsAccess';
-  static const cameraAccess = '/cameraAccess';
-  static const fileAccess = '/fileAccess';
-  static const signInTimeOut = '/signInTimeOut';
 
   static const candidateRoute = auth + candidate;
   static const recruiterRoute = auth + recruiter;
@@ -53,7 +44,7 @@ class Routes {
   static const emailVerificationRoute =
       auth + telephone + smsVerification + email + emailVerification;
   static const emailRoute = auth + telephone + smsVerification + email;
-  static const positionRoute = auth + position;
+  static const positionRoute = position;
   static const homepageRoute = homepage;
   static const welcomeRoute = welcome;
   static const passwordRoute = password;
@@ -75,13 +66,4 @@ class Routes {
   static const myRoute = my;
   static const dutyRoute = duty;
   static const googleplaceapiRoute = googlePlaceApi;
-  static const settingRoute = setting;
-  static const searchRoute = search;
-  static const nothingFoundRoute = nothingFound;
-  static const signInErrorRoute = signInError;
-  static const networkErrorRoute = networkError;
-  static const gpsAccessRoute = gpsAccess;
-  static const cameraAccessRoute = cameraAccess;
-  static const fileAccessRoute = fileAccess;
-  static const sigiInTimeOutRoute = signInTimeOut;
 }
